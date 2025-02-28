@@ -3,27 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weird Scratchy Pacman Theme</title>
+    <title>TARD MAN</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>WEIRD SCRATCHY PACMAN</h1>
-        <div class="pacman-container">
-            <div class="pacman">
-                <div class="pacman-eye"></div>
-                <div class="pacman-mouth"></div>
-            </div>
+        <h1>TARD MAN</h1>
+        <div class="head-container">
+            <canvas id="particle-canvas"></canvas>
+            <img id="head-closed" class="head-img active" src="scottman0.png" alt="Head with closed mouth">
+            <img id="head-open" class="head-img" src="scottman10.png" alt="Head with open mouth">
         </div>
         <div class="controls">
             <button id="play-btn">PLAY THEME</button>
             <button id="stop-btn">STOP</button>
             <div class="slider-container">
-                <label for="distortion">Scratchiness:</label>
+                <label for="distortion">Tardiness:</label>
                 <input type="range" id="distortion" min="0" max="100" value="50">
             </div>
             <div class="slider-container">
-                <label for="weirdness">Weirdness:</label>
+                <label for="weirdness">Even tardier:</label>
                 <input type="range" id="weirdness" min="0" max="100" value="50">
             </div>
         </div>
